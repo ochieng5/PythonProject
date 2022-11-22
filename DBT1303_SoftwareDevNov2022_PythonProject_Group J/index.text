@@ -1,0 +1,32 @@
+//Record participants wishing to join
+//available services yoga, pilates, keep feet,spinning classes
+// types of classes beginners, intermediate and advanced
+//six sessions per class in a specified room
+//one class per week
+// member class booking
+// member class payment via credit card or cash
+CODE TO REGISTER NEW MEMBERS VIA PHONE CALL 
+SYSTEM PROMT ‘welcome to Our Gym, press 1 if you are a member, press 2 if you want to register as a member, press 3 for queries, press for 4 to cancel a booking, press 5 to book a session, or press 0 to exist’ 
+IF reply = 1 	‘ caller supplies user name and password’
+			‘System authenticates caller’
+			‘ system prompt menu selection’
+			‘ system reports member information’
+WHILE NOT DO
+IF reply = 2 	‘system process and reports registration information’
+			‘ system request  name, age, contact information, class type, mode of payment’
+			‘ sytem promts client to pick class from menu and price selection’
+			‘after payment system generates members login credentials’ 
+			‘ system prompts member to book a session one entry per week’
+
+ELSE
+IF reply = 3 	‘ system connects to standby human customer care agent’
+ELSE
+IF relply = 4 	‘ system request member credentials ‘
+			‘System authenticates caller’
+			‘ system cancels or reschedules booking’
+ELSE 
+IF reply = 5 	‘ system request member credentials ‘
+			‘System authenticates caller’
+			‘ system prompt menu selection of class type and prizes’
+			‘ after payment system assigns member to class and gym instructor’
+IF reply is = 0 ‘ system reports good bye message and exits’
